@@ -1,0 +1,9 @@
+---------------ubuntu 16.04------------------
+1.	apt-get install linux-image-extra-virtual
+2.	curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add –
+3.	apt-get update
+4.	 apt-get install docker docker.io
+--------------------------------------------
+5.	docker pull ubuntu
+6.	docker -ti run ubuntu /bin/bash
+7.	docker run -ti ubuntu /bin/bash 
