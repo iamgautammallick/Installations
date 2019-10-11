@@ -1,0 +1,12 @@
+Ubuntu 16.04 version
+-------------------Master------------------------------------------------------
+wget -q -O - https://pkg.jenkins.io/debian/jenkins-ci.org.key | sudo apt-key add -
+sudo sh -c 'echo deb http://pkg.jenkins.io/debian-stable binary/ > /etc/apt/sources.list.d/jenkins.list'
+
+
+apt-get install openjdk-8-jre*
+apt-get install openjdk-8-jdk
+
+apt-get update -y
+
+apt-get install jenkins
